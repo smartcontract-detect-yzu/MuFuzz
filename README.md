@@ -54,7 +54,7 @@ $(MuFuzz)
 └── README.md
 ```
 
-* `sFuzz`: The basic fuzzing module of IR-Fuzz
+* `sFuzz`: The basic fuzzing module of MuFuzz
 * `bran`: The abstract interpreter for path analysis
 * `tools`: The static analysis tools for extracting vulnerability-specific patterns
   * `requirements.txt`：Required python dependencies
@@ -105,7 +105,7 @@ cd ..
 ./rename_src.sh
 ```
 
-- Run IR-Fuzz and perform vulnerability detection
+- Run MuFuzz and perform vulnerability detection
 
 ```bash
 ./run.sh
