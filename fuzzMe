@@ -1,0 +1,3 @@
+#!/bin/bash
+python tools/gen_attack_contract.py contracts/test/CrowdFunding.sol
+./fuzz --file contracts/test/CrowdFunding.sol.json --source contracts/test/CrowdFunding.sol --name CrowdFunding --assets assets/ --duration 540 --mode 1 --order 0 --reporter 2 --attacker ReentrancyAttacker --testcases 5
