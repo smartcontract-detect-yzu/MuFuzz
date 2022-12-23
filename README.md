@@ -116,3 +116,6 @@ cd ..
 - Note: if you download the boost version >= 1.7.0, you may need to update the ".get_io_service()" (in sFuzz/libp2p/RLPxHandshake.h) to ".get_executor()".
 
 
+## Dataset
+
+Download [datasets](https://drive.google.com/file/d/1lacuM-sVFvQNzd_iFcbDNww9llFGvsWK/view?usp=share_link)
